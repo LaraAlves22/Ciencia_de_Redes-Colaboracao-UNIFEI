@@ -1,0 +1,8 @@
+Verificação,Ocorrências
+Valores ausentes em nodes.csv,0
+Valores ausentes em edges.csv,0
+Self-loops (source == target),0
+Arestas duplicadas (mesmo par),0
+Pesos inválidos (<= 0),0
+Ids em edges.csv ausentes em nodes.csv,0
+Nós isolados (sem nenhuma colaboração),332
