@@ -1,0 +1,19 @@
+{
+ "N": 3938,
+ "S0_completa": 0.7585068562722194,
+ "f_estrela": {
+  "aleatoria": 0.7762823768410361,
+  "grau": 0.09954291518537328,
+  "intermediacao": 0.11325545962417471,
+  "forca": 0.10970035551041138,
+  "articulacao": 0.13230066023362114
+ },
+ "candidatos_ponte": {
+  "n": 41,
+  "S_apos_remover": 0.7049263585576435,
+  "S_apos_remover_k_aleatorios": 0.7483663450143898,
+  "S_apos_remover_k_maiores_graus": 0.7016251904520061,
+  "n_pontos_articulacao_entre_candidatos": 27
+ },
+ "n_pontos_articulacao_rede_completa": 301
+}

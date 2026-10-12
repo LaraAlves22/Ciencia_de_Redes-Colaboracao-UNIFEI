@@ -1,0 +1,15 @@
+{
+ "kmin": 4,
+ "alfa": 2.2779504118308744,
+ "D_obs": 0.03430130184844449,
+ "n_cauda": 1781,
+ "n_nos": 2987,
+ "n_boot": 1000,
+ "falhas": 0,
+ "p_valor": 0.0,
+ "D_sint_mediana": 0.011517809063443518,
+ "D_sint_p95": 0.017374510150072082,
+ "alfa_sint_media": 2.278001078189395,
+ "kmin_sint_mediano": 4.0,
+ "interpretacao": "p < 0,1: a lei de potência é rejeitada como modelo plausível da cauda"
+}
