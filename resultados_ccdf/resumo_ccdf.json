@@ -1,0 +1,49 @@
+{
+ "Baseline": {
+  "kmin": 4,
+  "alfa": 2.2779504118308744,
+  "D": 0.03430130184844449,
+  "n_cauda": 1781,
+  "LR_vs_lognormal": {
+   "R": -24.012318206664208,
+   "p": 7.895817634469958e-06,
+   "mu_ln": -0.4349672975099499,
+   "sigma_ln": 1.5484823885579533
+  }
+ },
+ "BA": {
+  "kmin_mediana": 5.5,
+  "alfa_media": 2.8056749895030935,
+  "D_medio": 0.011119837004798582,
+  "n_ajustes": 20,
+  "n_replicas": 20
+ },
+ "HK": {
+  "kmin_mediana": 5.0,
+  "alfa_media": 2.788146730113444,
+  "D_medio": 0.012643286001254134,
+  "n_ajustes": 20,
+  "n_replicas": 20
+ },
+ "CM": {
+  "kmin_mediana": 4.0,
+  "alfa_media": 2.277950411830874,
+  "D_medio": 0.03430130184844449,
+  "n_ajustes": 20,
+  "n_replicas": 20
+ },
+ "LFR_0.1": {
+  "kmin_mediana": 5.5,
+  "alfa_media": 2.8308069245288254,
+  "D_medio": 0.02708727800156318,
+  "n_ajustes": 20,
+  "n_replicas": 20
+ },
+ "LFR_0.3": {
+  "kmin_mediana": 9.0,
+  "alfa_media": 2.8074715398171284,
+  "D_medio": 0.027101075491983966,
+  "n_ajustes": 20,
+  "n_replicas": 20
+ }
+}
