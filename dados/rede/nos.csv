@@ -882,7 +882,7 @@ X00832,X00832,X,Externo,outro_vinculo_unifei,,,discente,False
 X00833,X00833,X,Externo,nao_identificado,,,nome_completo,False
 X00834,X00834,X,Externo,outro_vinculo_unifei,,,discente,False
 X00835,X00835,X,Externo,nao_identificado,,,nome_completo,False
-X00836,X00836,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X00836,X00836,X,Externo,nacional,,,discente_instituicao_registro,False
 X00837,X00837,X,Externo,outro_vinculo_unifei,,,discente,False
 X00838,X00838,X,Externo,nao_identificado,,,nome_completo,False
 X00839,X00839,X,Externo,nao_identificado,,,nome_completo,False
@@ -895,7 +895,7 @@ X00845,X00845,X,Externo,outro_vinculo_unifei,,,discente,False
 X00846,X00846,X,Externo,nao_identificado,,,nome_completo,False
 X00847,X00847,X,Externo,nao_identificado,,,nome_completo,False
 X00848,X00848,X,Externo,nao_identificado,,,nome_completo,False
-X00849,X00849,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X00849,X00849,X,Externo,nacional,,,discente_instituicao_registro,False
 X00850,X00850,X,Externo,nao_identificado,,,nome_completo,False
 X00851,X00851,X,Externo,outro_vinculo_unifei,,,discente,False
 X00852,X00852,X,Externo,nao_identificado,,,nome_completo,False
@@ -908,7 +908,7 @@ X00858,X00858,X,Externo,outro_vinculo_unifei,,,discente,False
 X00859,X00859,X,Externo,outro_vinculo_unifei,,,discente,False
 X00860,X00860,X,Externo,outro_vinculo_unifei,,,discente,False
 X00861,X00861,X,Externo,outro_vinculo_unifei,,,discente,False
-X00862,X00862,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X00862,X00862,X,Externo,nacional,,,discente_instituicao_registro,False
 X00863,X00863,X,Externo,outro_vinculo_unifei,,,discente,False
 X00864,X00864,X,Externo,nao_identificado,,,nome_completo,False
 X00865,X00865,X,Externo,nao_identificado,,,nome_completo,False
@@ -1003,7 +1003,7 @@ X00953,X00953,X,Externo,outro_vinculo_unifei,,,nome_completo;discente,False
 X00954,X00954,X,Externo,outro_vinculo_unifei,,,discente,False
 X00955,X00955,X,Externo,nao_identificado,,,nome_completo,False
 X00956,X00956,X,Externo,outro_vinculo_unifei,,,discente,False
-X00957,X00957,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X00957,X00957,X,Externo,nacional,,,discente_instituicao_registro,False
 X00958,X00958,X,Externo,outro_vinculo_unifei,,,discente,False
 X00959,X00959,X,Externo,nao_identificado,,,nome_completo,False
 X00960,X00960,X,Externo,nao_identificado,,,nome_completo,False
@@ -1027,21 +1027,21 @@ X00977,X00977,X,Externo,outro_vinculo_unifei,,,discente,False
 X00978,X00978,X,Externo,nao_identificado,,,nome_completo,False
 X00979,X00979,X,Externo,outro_vinculo_unifei,,,discente,False
 X00980,X00980,X,Externo,nao_identificado,,,nome_completo,False
-X00981,X00981,X,Externo,outro_vinculo_unifei,,,nome_completo;discente_instituicao_registro,False
-X00982,X00982,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X00981,X00981,X,Externo,nao_identificado,,,nome_completo,False
+X00982,X00982,X,Externo,nacional,,,discente_instituicao_registro,False
 X00983,X00983,X,Externo,outro_vinculo_unifei,,,discente,False
 X00984,X00984,X,Externo,nao_identificado,,,nome_completo,False
 X00985,X00985,X,Externo,nao_identificado,,,nome_completo,False
 X00986,X00986,X,Externo,nao_identificado,,,nome_completo,False
 X00987,X00987,X,Externo,nao_identificado,,,nome_completo,False
 X00988,X00988,X,Externo,nao_identificado,,,nome_completo,False
-X00989,X00989,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X00989,X00989,X,Externo,nacional,,,discente_instituicao_registro,False
 X00990,X00990,X,Externo,nao_identificado,,,nome_completo,False
 X00991,X00991,X,Externo,outro_vinculo_unifei,,,discente,False
 X00992,X00992,X,Externo,outro_vinculo_unifei,,,discente,False
 X00993,X00993,X,Externo,outro_vinculo_unifei,,,nome_completo;discente,False
 X00994,X00994,X,Externo,nao_identificado,,,nome_completo,False
-X00995,X00995,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X00995,X00995,X,Externo,nacional,,,discente_instituicao_registro,False
 X00996,X00996,X,Externo,nao_identificado,,,nome_completo,False
 X00997,X00997,X,Externo,nao_identificado,,,nome_completo,False
 X00998,X00998,X,Externo,outro_vinculo_unifei,,,discente,False
@@ -1096,7 +1096,7 @@ X01046,X01046,X,Externo,outro_vinculo_unifei,,,discente,False
 X01047,X01047,X,Externo,outro_vinculo_unifei,,,discente,False
 X01048,X01048,X,Externo,outro_vinculo_unifei,,,discente,False
 X01049,X01049,X,Externo,nao_identificado,,,nome_completo,False
-X01050,X01050,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X01050,X01050,X,Externo,nacional,,,discente_instituicao_registro,False
 X01051,X01051,X,Externo,outro_vinculo_unifei,,,discente,False
 X01052,X01052,X,Externo,outro_vinculo_unifei,,,nome_completo;discente,False
 X01053,X01053,X,Externo,outro_vinculo_unifei,,,discente,False
@@ -1181,7 +1181,7 @@ X01131,X01131,X,Externo,nao_identificado,,,nome_completo,False
 X01132,X01132,X,Externo,outro_vinculo_unifei,,,discente,False
 X01133,X01133,X,Externo,outro_vinculo_unifei,,,discente,False
 X01134,X01134,X,Externo,nao_identificado,,,nome_completo,False
-X01135,X01135,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X01135,X01135,X,Externo,nacional,,,discente_instituicao_registro,False
 X01136,X01136,X,Externo,outro_vinculo_unifei,,,discente,False
 X01137,X01137,X,Externo,outro_vinculo_unifei,,,discente,False
 X01138,X01138,X,Externo,outro_vinculo_unifei,,,discente,False
@@ -1201,8 +1201,8 @@ X01151,X01151,X,Externo,outro_vinculo_unifei,,,discente,False
 X01152,X01152,X,Externo,outro_vinculo_unifei,,,discente,False
 X01153,X01153,X,Externo,nao_identificado,,,nome_completo,False
 X01154,X01154,X,Externo,outro_vinculo_unifei,,,discente,False
-X01155,X01155,X,Externo,nacional,,,nome_completo;discente;discente_instituicao_registro,False
-X01156,X01156,X,Externo,outro_vinculo_unifei,,,nome_completo;discente_instituicao_registro,False
+X01155,X01155,X,Externo,nacional,,,nome_completo;discente_instituicao_registro,False
+X01156,X01156,X,Externo,nao_identificado,,,nome_completo,False
 X01157,X01157,X,Externo,nao_identificado,,,nome_completo,False
 X01158,X01158,X,Externo,nao_identificado,,,nome_completo,False
 X01159,X01159,X,Externo,outro_vinculo_unifei,,,discente,False
@@ -1217,7 +1217,7 @@ X01167,X01167,X,Externo,outro_vinculo_unifei,,,discente,False
 X01168,X01168,X,Externo,nao_identificado,,,nome_completo,False
 X01169,X01169,X,Externo,nao_identificado,,,nome_completo,False
 X01170,X01170,X,Externo,nao_identificado,,,nome_completo,False
-X01171,X01171,X,Externo,nacional,,,nome_completo;discente;discente_instituicao_registro,False
+X01171,X01171,X,Externo,nacional,,,nome_completo;discente_instituicao_registro,False
 X01172,X01172,X,Externo,outro_vinculo_unifei,,,discente,False
 X01173,X01173,X,Externo,nao_identificado,,,nome_completo,False
 X01174,X01174,X,Externo,outro_vinculo_unifei,,,discente,False
@@ -1244,7 +1244,7 @@ X01194,X01194,X,Externo,nao_identificado,,,nome_completo,False
 X01195,X01195,X,Externo,outro_vinculo_unifei,,,discente,False
 X01196,X01196,X,Externo,outro_vinculo_unifei,,,discente,False
 X01197,X01197,X,Externo,outro_vinculo_unifei,,,discente,False
-X01198,X01198,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X01198,X01198,X,Externo,nacional,,,discente_instituicao_registro,False
 X01199,X01199,X,Externo,nao_identificado,,,nome_completo,False
 X01200,X01200,X,Externo,nao_identificado,,,nome_completo,False
 X01201,X01201,X,Externo,outro_vinculo_unifei,,,discente,False
@@ -1252,7 +1252,7 @@ X01202,X01202,X,Externo,outro_vinculo_unifei,,,discente,False
 X01203,X01203,X,Externo,outro_vinculo_unifei,,,discente,False
 X01204,X01204,X,Externo,outro_vinculo_unifei,,,discente,False
 X01205,X01205,X,Externo,outro_vinculo_unifei,,,nome_completo;discente,False
-X01206,X01206,X,Externo,outro_vinculo_unifei,,,nome_completo;discente_instituicao_registro,False
+X01206,X01206,X,Externo,nao_identificado,,,nome_completo,False
 X01207,X01207,X,Externo,nao_identificado,,,nome_completo,False
 X01208,X01208,X,Externo,outro_vinculo_unifei,,,discente,False
 X01209,X01209,X,Externo,outro_vinculo_unifei,,,discente,False
@@ -1271,7 +1271,7 @@ X01221,X01221,X,Externo,outro_vinculo_unifei,,,discente,False
 X01222,X01222,X,Externo,outro_vinculo_unifei,,,discente,False
 X01223,X01223,X,Externo,outro_vinculo_unifei,,,discente,False
 X01224,X01224,X,Externo,nao_identificado,,,nome_completo,False
-X01225,X01225,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X01225,X01225,X,Externo,nacional,,,discente_instituicao_registro,False
 X01226,X01226,X,Externo,nao_identificado,,,nome_completo,False
 X01227,X01227,X,Externo,outro_vinculo_unifei,,,discente,False
 X01228,X01228,X,Externo,nao_identificado,,,nome_completo,False
@@ -1352,7 +1352,7 @@ X01302,X01302,X,Externo,outro_vinculo_unifei,,,discente,False
 X01303,X01303,X,Externo,nao_identificado,,,nome_completo,False
 X01304,X01304,X,Externo,outro_vinculo_unifei,,,nome_completo;discente,False
 X01305,X01305,X,Externo,outro_vinculo_unifei,,,discente,False
-X01306,X01306,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X01306,X01306,X,Externo,nacional,,,discente_instituicao_registro,False
 X01307,X01307,X,Externo,nao_identificado,,,nome_completo,False
 X01308,X01308,X,Externo,outro_vinculo_unifei,,,discente,False
 X01309,X01309,X,Externo,nao_identificado,,,nome_completo,False
@@ -1369,7 +1369,7 @@ X01319,X01319,X,Externo,nao_identificado,,,nome_completo,False
 X01320,X01320,X,Externo,nao_identificado,,,nome_completo,False
 X01321,X01321,X,Externo,outro_vinculo_unifei,,,discente,False
 X01322,X01322,X,Externo,outro_vinculo_unifei,,,discente,False
-X01323,X01323,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X01323,X01323,X,Externo,nacional,,,discente_instituicao_registro,False
 X01324,X01324,X,Externo,outro_vinculo_unifei,,,discente,False
 X01325,X01325,X,Externo,outro_vinculo_unifei,,,discente,False
 X01326,X01326,X,Externo,nao_identificado,,,nome_completo,False
@@ -1427,7 +1427,7 @@ X01377,X01377,X,Externo,outro_vinculo_unifei,,,discente,False
 X01378,X01378,X,Externo,outro_vinculo_unifei,,,nome_completo;discente,False
 X01379,X01379,X,Externo,outro_vinculo_unifei,,,discente,False
 X01380,X01380,X,Externo,outro_vinculo_unifei,,,discente,False
-X01381,X01381,X,Externo,nacional,,,discente;discente_instituicao_registro,False
+X01381,X01381,X,Externo,nacional,,,discente_instituicao_registro,False
 X01382,X01382,X,Externo,nao_identificado,,,nome_completo,False
 X01383,X01383,X,Externo,nao_identificado,,,nome_completo,False
 X01384,X01384,X,Externo,outro_vinculo_unifei,,,discente,False
@@ -1435,7 +1435,7 @@ X01385,X01385,X,Externo,nao_identificado,,,nome_completo,False
 X01386,X01386,X,Externo,nao_identificado,,,nome_completo,False
 X01387,X01387,X,Externo,nao_identificado,,,nome_completo,False
 X01388,X01388,X,Externo,outro_vinculo_unifei,,,discente,False
-X01389,X01389,X,Externo,outro_vinculo_unifei,,,nome_completo;discente_instituicao_registro,False
+X01389,X01389,X,Externo,nao_identificado,,,nome_completo,False
 X01390,X01390,X,Externo,outro_vinculo_unifei,,,discente,False
 X01391,X01391,X,Externo,nao_identificado,,,nome_completo,False
 X01392,X01392,X,Externo,nao_identificado,,,nome_completo,False

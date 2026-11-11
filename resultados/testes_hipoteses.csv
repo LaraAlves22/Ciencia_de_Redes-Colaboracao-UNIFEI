@@ -1,6 +1,6 @@
 ﻿questao,hipotese,estatistica,observado,nulo,p_valor,decisao
 QP principal,estrutura acrescenta informação à contagem de publicações,ρ Spearman (publicações × intermediação de ligação); IC 95% bootstrap,0.6049114554459669,"limite superior do IC < 0,7: 0.374; 0.772",6.678888189293696e-06,não rejeita H0
-QP1,coautorias mais frequentes dentro de cada área,fração de arestas D–D entre áreas,0.017241379310344827,0.47834870689655173,9.999000099990002e-05,rejeita H0
-QP2,vínculos externos concentrados em poucos docentes,Gini dos vínculos externos identificados; docentes de ligação (BH): 14,0.4866516966067864,0.20677601938979187,0.0001999600079984003,rejeita H0
-QP3,grupos com coesão acima do esperado,modularidade Louvain,0.585229318418899,0.4373452610420644,0.004975124378109453,rejeita H0
-QP3,grupos com recorrência acima do esperado,eventos médios por par intracomunidade,7.2890625,4.94486953125,9.999000099990002e-05,rejeita H0
+QP1,coautorias mais frequentes dentro de cada área,fração de arestas D–D entre áreas,0.017241379310344827,0.47908318965517244,9.999000099990002e-05,rejeita H0
+QP2,vínculos externos concentrados em poucos docentes,Gini dos vínculos externos identificados; docentes de ligação (BH): 14,0.48582474226804123,0.2073253508018328,0.0001999600079984003,rejeita H0
+QP3,grupos com coesão acima do esperado,modularidade Louvain,0.585229318418899,0.4357822693299822,0.004975124378109453,rejeita H0
+QP3,grupos com recorrência acima do esperado,eventos médios por par intracomunidade,7.2890625,4.9412890625,9.999000099990002e-05,rejeita H0

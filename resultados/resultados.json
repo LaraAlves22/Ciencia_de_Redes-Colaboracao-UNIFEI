@@ -20,28 +20,28 @@
   "densidade_DD": 0.20567375886524822,
   "componentes_DD": 7,
   "docentes_isolados_DD": [
-   "D03",
+   "D22",
    "D44",
-   "D36",
    "D12",
-   "D22"
+   "D36",
+   "D03"
   ],
   "maior_componente_DD": 41,
   "agrupamento_medio_DD": 0.6637519785497726,
   "externos_por_categoria": {
-   "nao_identificado": 1142,
-   "outro_vinculo_unifei": 541,
+   "nao_identificado": 1146,
+   "outro_vinculo_unifei": 537,
    "nacional": 233,
    "docente_outro_instituto": 76,
    "estrangeira": 73
   },
   "fracao_vinculos_externos_fora_unifei": {
    "limite_inferior": 0.1226752503576538,
-   "limite_superior": 0.7045779685264664,
+   "limite_superior": 0.7063662374821174,
    "arestas_docente_externo": 2796,
    "por_categoria": {
-    "nao_identificado": 1627,
-    "outro_vinculo_unifei": 674,
+    "nao_identificado": 1632,
+    "outro_vinculo_unifei": 669,
     "docente_outro_instituto": 152,
     "nacional": 258,
     "estrangeira": 85
@@ -67,8 +67,8 @@
     "p": 6.678888189293696e-06
    },
    "diversidade_vinculos": {
-    "rho": 0.07570419530890982,
-    "p": 0.6130299777781658
+    "rho": 0.07466119835861484,
+    "p": 0.6179445728530706
    },
    "n_institutos_unifei": {
     "rho": 0.445354659511098,
@@ -108,42 +108,42 @@
  },
  "qp1": {
   "fracao_inter_obs": 0.017241379310344827,
-  "fracao_inter_nulo_media": 0.47834870689655173,
+  "fracao_inter_nulo_media": 0.47908318965517244,
   "fracao_inter_nulo_ic95": [
    0.40086206896551724,
    0.5301724137931034
   ],
   "p_valor": 9.999000099990002e-05,
-  "fracao_inter_ponderada_obs": 0.0009782073234558106,
-  "fracao_inter_ponderada_nulo_media": 0.4783347926133785,
+  "fracao_inter_ponderada_obs": 0.0009782073234558103,
+  "fracao_inter_ponderada_nulo_media": 0.47873639038010135,
   "p_valor_ponderado": 9.999000099990002e-05,
-  "assortatividade_camada": 0.9636932707355241,
+  "assortatividade_camada": 0.9636932707355244,
   "n_arestas_DD": 232,
   "n_arestas_inter": 4,
   "pares_inter": [
    [
-    "D30",
-    "D33"
+    "D42",
+    "D18"
+   ],
+   [
+    "D18",
+    "D41"
    ],
    [
     "D41",
     "D10"
    ],
    [
-    "D41",
-    "D18"
-   ],
-   [
-    "D18",
-    "D42"
+    "D30",
+    "D33"
    ]
   ],
   "decisao": "rejeita H0"
  },
  "qp2": {
   "externos_compartilhados": 465,
-  "gini_vinculos_externos_obs": 0.4866516966067864,
-  "gini_nulo_media": 0.20677601938979187,
+  "gini_vinculos_externos_obs": 0.48582474226804123,
+  "gini_nulo_media": 0.2073253508018328,
   "p_valor_gini": 0.0001999600079984003,
   "n_docentes_ligacao": 14,
   "docentes_ligacao": [
@@ -169,11 +169,11 @@
  },
  "qp3": {
   "modularidade_obs": 0.585229318418899,
-  "modularidade_nulo_media": 0.4373452610420644,
+  "modularidade_nulo_media": 0.4357822693299822,
   "p_valor_modularidade": 0.004975124378109453,
-  "estabilidade_nmi_louvain": 0.9491029507438767,
+  "estabilidade_nmi_louvain": 0.9457584170398169,
   "eventos_medios_intra_obs": 7.2890625,
-  "eventos_medios_intra_nulo": 4.94486953125,
+  "eventos_medios_intra_nulo": 4.9412890625,
   "p_valor_recorrencia": 9.999000099990002e-05,
   "nmi_comunidade_camada": 0.5486155931050712,
   "n_comunidades": 7,
@@ -307,7 +307,7 @@
    "docente": "D30",
    "camada": "Matemática",
    "docentes_desconectados": 0,
-   "perda_eficiencia": 0.058150354143065464,
+   "perda_eficiencia": 0.05815035414306477,
    "vinculos_interarea_perdidos": 1,
    "externos_que_perdem_vinculo_com_imc": 7,
    "docentes_outros_institutos_perdidos": 0,
@@ -318,7 +318,7 @@
    "docente": "D33",
    "camada": "Computação",
    "docentes_desconectados": 0,
-   "perda_eficiencia": 0.04216169684847756,
+   "perda_eficiencia": 0.042161696848477655,
    "vinculos_interarea_perdidos": 1,
    "externos_que_perdem_vinculo_com_imc": 32,
    "docentes_outros_institutos_perdidos": 0,
@@ -329,7 +329,7 @@
    "docente": "D20",
    "camada": "Matemática",
    "docentes_desconectados": 0,
-   "perda_eficiencia": 0.028527663668529497,
+   "perda_eficiencia": 0.0285276636685312,
    "vinculos_interarea_perdidos": 0,
    "externos_que_perdem_vinculo_com_imc": 20,
    "docentes_outros_institutos_perdidos": 0,
@@ -340,7 +340,7 @@
    "docente": "D18",
    "camada": "Matemática",
    "docentes_desconectados": 0,
-   "perda_eficiencia": 0.028337774627027426,
+   "perda_eficiencia": 0.028337774627027898,
    "vinculos_interarea_perdidos": 2,
    "externos_que_perdem_vinculo_com_imc": 92,
    "docentes_outros_institutos_perdidos": 4,
@@ -351,7 +351,7 @@
    "docente": "D28",
    "camada": "Matemática",
    "docentes_desconectados": 0,
-   "perda_eficiencia": 0.020894124200092276,
+   "perda_eficiencia": 0.02089412420009314,
    "vinculos_interarea_perdidos": 0,
    "externos_que_perdem_vinculo_com_imc": 45,
    "docentes_outros_institutos_perdidos": 0,
@@ -361,6 +361,6 @@
  "sensibilidade": {
   "nmi_min_entre_variantes": 0.6742678762108887,
   "spearman_min_entre_variantes": 0.7635386639001577,
-  "nmi_pesos_m2_mediana": 0.7950177179968645
+  "nmi_pesos_m2_mediana": 0.8082213408686185
  }
 }
