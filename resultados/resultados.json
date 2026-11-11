@@ -1,0 +1,366 @@
+{
+ "ambiente": {
+  "python": "3.13.18",
+  "sistema": "Linux-6.18.44-fc-v378-x86_64-with-glibc2.39",
+  "processador": "x86_64",
+  "cpus": 2,
+  "networkx": "3.7",
+  "pandas": "3.0.5",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "scikit-learn": "1.9.1",
+  "matplotlib": "3.11.2"
+ },
+ "macro": {
+  "modelo": "M2",
+  "docentes": 48,
+  "externos": 2065,
+  "arestas_total": 3028,
+  "arestas_DD": 232,
+  "densidade_DD": 0.20567375886524822,
+  "componentes_DD": 7,
+  "docentes_isolados_DD": [
+   "D03",
+   "D44",
+   "D36",
+   "D12",
+   "D22"
+  ],
+  "maior_componente_DD": 41,
+  "agrupamento_medio_DD": 0.6637519785497726,
+  "externos_por_categoria": {
+   "nao_identificado": 1142,
+   "outro_vinculo_unifei": 541,
+   "nacional": 233,
+   "docente_outro_instituto": 76,
+   "estrangeira": 73
+  },
+  "fracao_vinculos_externos_fora_unifei": {
+   "limite_inferior": 0.1226752503576538,
+   "limite_superior": 0.7045779685264664,
+   "arestas_docente_externo": 2796,
+   "por_categoria": {
+    "nao_identificado": 1627,
+    "outro_vinculo_unifei": 674,
+    "docente_outro_instituto": 152,
+    "nacional": 258,
+    "estrangeira": 85
+   }
+  }
+ },
+ "qp_principal": {
+  "correlacoes_spearman_com_producao": {
+   "grau_total": {
+    "rho": 0.7533629172697962,
+    "p": 9.943953987334899e-10
+   },
+   "grau_docentes_imc": {
+    "rho": 0.24984785546853233,
+    "p": 0.09031731429412582
+   },
+   "grau_externo": {
+    "rho": 0.7445525583803558,
+    "p": 1.977220415331749e-09
+   },
+   "intermediacao_ligacao": {
+    "rho": 0.6049114554459669,
+    "p": 6.678888189293696e-06
+   },
+   "diversidade_vinculos": {
+    "rho": 0.07570419530890982,
+    "p": 0.6130299777781658
+   },
+   "n_institutos_unifei": {
+    "rho": 0.445354659511098,
+    "p": 0.00170725529930648
+   }
+  },
+  "rho_intermediacao_ic95_bootstrap": [
+   0.3739920729479831,
+   0.7719993702218026
+  ],
+  "replicas_bootstrap": 10000,
+  "mediana_publicacoes": 9.0,
+  "docentes_ligacao_abaixo_mediana": [
+   "D05",
+   "D13",
+   "D15",
+   "D21",
+   "D25",
+   "D27",
+   "D33"
+  ],
+  "docentes_abaixo_mediana_com_papel_relacional_amplo": [
+   "D05",
+   "D12",
+   "D13",
+   "D15",
+   "D19",
+   "D21",
+   "D25",
+   "D27",
+   "D33",
+   "D39",
+   "D46",
+   "D47"
+  ],
+  "decisao": "não rejeita H0"
+ },
+ "qp1": {
+  "fracao_inter_obs": 0.017241379310344827,
+  "fracao_inter_nulo_media": 0.47834870689655173,
+  "fracao_inter_nulo_ic95": [
+   0.40086206896551724,
+   0.5301724137931034
+  ],
+  "p_valor": 9.999000099990002e-05,
+  "fracao_inter_ponderada_obs": 0.0009782073234558106,
+  "fracao_inter_ponderada_nulo_media": 0.4783347926133785,
+  "p_valor_ponderado": 9.999000099990002e-05,
+  "assortatividade_camada": 0.9636932707355241,
+  "n_arestas_DD": 232,
+  "n_arestas_inter": 4,
+  "pares_inter": [
+   [
+    "D30",
+    "D33"
+   ],
+   [
+    "D41",
+    "D10"
+   ],
+   [
+    "D41",
+    "D18"
+   ],
+   [
+    "D18",
+    "D42"
+   ]
+  ],
+  "decisao": "rejeita H0"
+ },
+ "qp2": {
+  "externos_compartilhados": 465,
+  "gini_vinculos_externos_obs": 0.4866516966067864,
+  "gini_nulo_media": 0.20677601938979187,
+  "p_valor_gini": 0.0001999600079984003,
+  "n_docentes_ligacao": 14,
+  "docentes_ligacao": [
+   "D04",
+   "D05",
+   "D13",
+   "D15",
+   "D16",
+   "D18",
+   "D21",
+   "D23",
+   "D25",
+   "D27",
+   "D30",
+   "D33",
+   "D41",
+   "D42"
+  ],
+  "n_docentes_ligacao_criterio_z2_sem_correcao": 15,
+  "replicas_nulo_intermediacao": 1000,
+  "correcao": "Benjamini-Hochberg",
+  "decisao": "rejeita H0"
+ },
+ "qp3": {
+  "modularidade_obs": 0.585229318418899,
+  "modularidade_nulo_media": 0.4373452610420644,
+  "p_valor_modularidade": 0.004975124378109453,
+  "estabilidade_nmi_louvain": 0.9491029507438767,
+  "eventos_medios_intra_obs": 7.2890625,
+  "eventos_medios_intra_nulo": 4.94486953125,
+  "p_valor_recorrencia": 9.999000099990002e-05,
+  "nmi_comunidade_camada": 0.5486155931050712,
+  "n_comunidades": 7,
+  "grupos": [
+   {
+    "comunidade": 0,
+    "n_docentes": 11,
+    "camadas": {
+     "Computação": 11
+    },
+    "densidade_interna": 0.9090909090909091,
+    "eventos_medios_por_par": 9.48,
+    "docentes": [
+     "D32",
+     "D34",
+     "D35",
+     "D38",
+     "D39",
+     "D40",
+     "D41",
+     "D42",
+     "D43",
+     "D45",
+     "D48"
+    ]
+   },
+   {
+    "comunidade": 1,
+    "n_docentes": 11,
+    "camadas": {
+     "Matemática": 11
+    },
+    "densidade_interna": 0.8909090909090909,
+    "eventos_medios_por_par": 4.653061224489796,
+    "docentes": [
+     "D04",
+     "D06",
+     "D08",
+     "D09",
+     "D11",
+     "D13",
+     "D15",
+     "D16",
+     "D20",
+     "D23",
+     "D29"
+    ]
+   },
+   {
+    "comunidade": 2,
+    "n_docentes": 9,
+    "camadas": {
+     "Matemática": 9
+    },
+    "densidade_interna": 0.4722222222222222,
+    "eventos_medios_por_par": 8.058823529411764,
+    "docentes": [
+     "D07",
+     "D10",
+     "D14",
+     "D17",
+     "D18",
+     "D19",
+     "D24",
+     "D28",
+     "D30"
+    ]
+   },
+   {
+    "comunidade": 3,
+    "n_docentes": 5,
+    "camadas": {
+     "Computação": 5
+    },
+    "densidade_interna": 0.8,
+    "eventos_medios_por_par": 9.125,
+    "docentes": [
+     "D31",
+     "D33",
+     "D37",
+     "D46",
+     "D47"
+    ]
+   },
+   {
+    "comunidade": 4,
+    "n_docentes": 3,
+    "camadas": {
+     "Matemática": 3
+    },
+    "densidade_interna": 0.6666666666666666,
+    "eventos_medios_por_par": 4.0,
+    "docentes": [
+     "D05",
+     "D21",
+     "D26"
+    ]
+   },
+   {
+    "comunidade": 5,
+    "n_docentes": 2,
+    "camadas": {
+     "Matemática": 2
+    },
+    "densidade_interna": 1.0,
+    "eventos_medios_por_par": 12.0,
+    "docentes": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "comunidade": 6,
+    "n_docentes": 2,
+    "camadas": {
+     "Matemática": 2
+    },
+    "densidade_interna": 1.0,
+    "eventos_medios_por_par": 1.0,
+    "docentes": [
+     "D25",
+     "D27"
+    ]
+   }
+  ],
+  "decisao": "rejeita H0"
+ },
+ "afastamento_top5": [
+  {
+   "id": "SEM_LATTES_01",
+   "docente": "D30",
+   "camada": "Matemática",
+   "docentes_desconectados": 0,
+   "perda_eficiencia": 0.058150354143065464,
+   "vinculos_interarea_perdidos": 1,
+   "externos_que_perdem_vinculo_com_imc": 7,
+   "docentes_outros_institutos_perdidos": 0,
+   "institutos_unifei_perdidos": ""
+  },
+  {
+   "id": "0795580678001628",
+   "docente": "D33",
+   "camada": "Computação",
+   "docentes_desconectados": 0,
+   "perda_eficiencia": 0.04216169684847756,
+   "vinculos_interarea_perdidos": 1,
+   "externos_que_perdem_vinculo_com_imc": 32,
+   "docentes_outros_institutos_perdidos": 0,
+   "institutos_unifei_perdidos": ""
+  },
+  {
+   "id": "5867801400150324",
+   "docente": "D20",
+   "camada": "Matemática",
+   "docentes_desconectados": 0,
+   "perda_eficiencia": 0.028527663668529497,
+   "vinculos_interarea_perdidos": 0,
+   "externos_que_perdem_vinculo_com_imc": 20,
+   "docentes_outros_institutos_perdidos": 0,
+   "institutos_unifei_perdidos": ""
+  },
+  {
+   "id": "5615760553062573",
+   "docente": "D18",
+   "camada": "Matemática",
+   "docentes_desconectados": 0,
+   "perda_eficiencia": 0.028337774627027426,
+   "vinculos_interarea_perdidos": 2,
+   "externos_que_perdem_vinculo_com_imc": 92,
+   "docentes_outros_institutos_perdidos": 4,
+   "institutos_unifei_perdidos": "IFQ:3;IEPG:1"
+  },
+  {
+   "id": "9511030597880024",
+   "docente": "D28",
+   "camada": "Matemática",
+   "docentes_desconectados": 0,
+   "perda_eficiencia": 0.020894124200092276,
+   "vinculos_interarea_perdidos": 0,
+   "externos_que_perdem_vinculo_com_imc": 45,
+   "docentes_outros_institutos_perdidos": 0,
+   "institutos_unifei_perdidos": ""
+  }
+ ],
+ "sensibilidade": {
+  "nmi_min_entre_variantes": 0.6742678762108887,
+  "spearman_min_entre_variantes": 0.7635386639001577,
+  "nmi_pesos_m2_mediana": 0.7950177179968645
+ }
+}
