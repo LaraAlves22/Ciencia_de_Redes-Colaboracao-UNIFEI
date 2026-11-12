@@ -53,8 +53,22 @@ def docentes_de(G):
     return [n for n, d in G.nodes(data=True) if d["tipo_no"] == "D"]
 
 
+def subgrafo_induzido(G, nos):
+    """Subgrafo induzido que mantem a ordem de nos e arestas de G.
+
+    G.subgraph() percorre os nos na ordem de um set do Python, que muda com o
+    PYTHONHASHSEED (ids Lattes sao strings). Essa ordem entra nas trocas de arestas,
+    no Louvain e nas permutacoes, e por isso os modelos nulos davam replicas diferentes
+    a cada execucao, mesmo com a semente fixa."""
+    S = set(nos)
+    H = nx.Graph()
+    H.add_nodes_from((n, G.nodes[n]) for n in G if n in S)
+    H.add_edges_from((u, v, d) for u, v, d in G.edges(data=True) if u in S and v in S)
+    return H
+
+
 def subrede_docentes(G):
-    return G.subgraph(docentes_de(G)).copy()
+    return subgrafo_induzido(G, docentes_de(G))
 
 
 TAMANHO_GRUPO = Counter(TIPO_GRUPO.values())
@@ -131,7 +145,7 @@ def rewire_fronteira(G, seed):
     nenhuma aresta X-X criada)."""
     rng = np.random.default_rng(seed)
     D = set(docentes_de(G))
-    GD = G.subgraph(D).copy()
+    GD = subgrafo_induzido(G, D)
     R = rewire_grau(GD, seed)
     dx = [(u, v) if u in D else (v, u) for u, v in G.edges() if (u in D) != (v in D)]
     dx = [list(e) for e in dx]
@@ -166,7 +180,7 @@ def anos_exposicao(docentes_csv, inicio, fim):
 
 def metricas_docentes(G, docentes_csv, inicio, fim, comunidades=None):
     D = docentes_de(G)
-    GD = G.subgraph(D)
+    GD = subgrafo_induzido(G, D)
     bet = nx.betweenness_centrality(G, normalized=True)
     bet_d = nx.betweenness_centrality(GD, normalized=True) if GD.number_of_edges() else {d: 0 for d in D}
     exp = anos_exposicao(docentes_csv, inicio, fim)
@@ -345,7 +359,7 @@ def teste_qp3(G, n_rep=200, n_exec=20, seed=0):
     nmi_cam = normalized_mutual_info_score(cam, rotulos_particao(part, list(GD)))
     grupos = []
     for i, c in enumerate(sorted(part, key=len, reverse=True)):
-        S = GD.subgraph(c)
+        S = subgrafo_induzido(GD, c)
         grupos.append({"comunidade": i, "n_docentes": len(c),
                        "camadas": dict(Counter(GD.nodes[n]["camada"] for n in c)),
                        "densidade_interna": nx.density(S) if len(c) > 1 else 0.0,
@@ -398,7 +412,7 @@ def teste_principal(met, n_boot=10000, seed=0):
 # ----------------------------------------------------------------------------
 def afastamento_individual(G):
     D = docentes_de(G)
-    GD = G.subgraph(D).copy()
+    GD = subgrafo_induzido(G, D)
     comp_principal = max(nx.connected_components(GD), key=len) if GD.number_of_nodes() else set()
     base_gc = len(comp_principal)
     base_ef = nx.global_efficiency(GD)
@@ -614,9 +628,9 @@ def fig_comunidades(G, comunidades, met, caminho):
     GD = subrede_docentes(G)
     conectados = [n for n in GD if GD.degree(n) > 0]
     pos = {}
-    comps = sorted(nx.connected_components(GD.subgraph(conectados)), key=len, reverse=True) if conectados else []
+    comps = sorted(nx.connected_components(subgrafo_induzido(GD, conectados)), key=len, reverse=True) if conectados else []
     for k, c in enumerate(comps):
-        S = GD.subgraph(c)
+        S = subgrafo_induzido(GD, c)
         p = nx.spring_layout(S, weight=None, k=1.8 / np.sqrt(len(S)), iterations=2000, seed=3) if len(S) > 1 \
             else {next(iter(c)): np.zeros(2)}
         xy = np.array(list(p.values()), dtype=float)
