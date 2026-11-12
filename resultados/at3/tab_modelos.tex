@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering\footnotesize
+\caption{Baseline (maior componente da rede completa, $N=2.010$) e modelos de referência calibrados para o mesmo $N$ e $L$. Média $\pm$ desvio-padrão de 30 réplicas; $\langle d\rangle$ e diâmetro no maior componente de cada réplica; CA: coeficiente de agrupamento; $Q$: modularidade (Louvain); $r$: assortatividade por grau; $S$: fração do maior componente; $D_{KS}$: distância KS entre as distribuições de grau; Erro: média dos oito erros relativos (limitados a 1). Em negrito, o valor mais próximo da baseline.}
+\label{tab:modelos}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrrrrrrr@{}}
+\toprule
+\textbf{Rede} & $L$ & $\langle d\rangle$ & Diâm. & CA méd. & CA glob. & $Q$ & $k_{\max}$ & $r$ & $S$ & $D_{KS}$ & Erro \\
+\midrule
+Baseline & 2.929 & 3{,}822 & 9{,}000 & 0{,}229 & 0{,}036 & 0{,}720 & 234{,}000 & -0{,}622 & 1{,}000 & --- & --- \\
+\midrule
+ER & 2.929 & 7{,}032\,$\pm$\,0{,}046 & 16{,}067\,$\pm$\,0{,}980 & 0{,}001\,$\pm$\,0{,}001 & 0{,}002\,$\pm$\,0{,}001 & 0{,}654\,$\pm$\,0{,}003 & 10{,}267\,$\pm$\,0{,}785 & -0{,}001\,$\pm$\,0{,}022 & 0{,}935\,$\pm$\,0{,}005 & 0{,}536\,$\pm$\,0{,}005 & 0{,}709\,$\pm$\,0{,}015 \\
+WS ($p{=}0{,}5$) & 2.929 & 8{,}528\,$\pm$\,0{,}055 & 17{,}900\,$\pm$\,0{,}803 & 0{,}054\,$\pm$\,0{,}005 & 0{,}049\,$\pm$\,0{,}005 & \textbf{0{,}725\,$\pm$\,0{,}004} & 7{,}967\,$\pm$\,0{,}718 & -0{,}057\,$\pm$\,0{,}019 & \textbf{1{,}000\,$\pm$\,0{,}000} & 0{,}645\,$\pm$\,0{,}006 & 0{,}621\,$\pm$\,0{,}014 \\
+BA & 2.929 & 5{,}110\,$\pm$\,0{,}108 & 11{,}500\,$\pm$\,0{,}731 & 0{,}007\,$\pm$\,0{,}002 & 0{,}004\,$\pm$\,0{,}001 & 0{,}683\,$\pm$\,0{,}002 & 95{,}767\,$\pm$\,27{,}178 & -0{,}089\,$\pm$\,0{,}015 & \textbf{1{,}000\,$\pm$\,0{,}000} & 0{,}387\,$\pm$\,0{,}007 & 0{,}497\,$\pm$\,0{,}020 \\
+HK ($p{=}0{,}25$) & 2.929 & 5{,}203\,$\pm$\,0{,}105 & 11{,}833\,$\pm$\,0{,}699 & 0{,}107\,$\pm$\,0{,}007 & \textbf{0{,}029\,$\pm$\,0{,}002} & 0{,}735\,$\pm$\,0{,}003 & 101{,}533\,$\pm$\,20{,}581 & -0{,}084\,$\pm$\,0{,}011 & \textbf{1{,}000\,$\pm$\,0{,}000} & 0{,}388\,$\pm$\,0{,}007 & 0{,}360\,$\pm$\,0{,}014 \\
+LFR ($\mu{=}0{,}2$) & 2.936 & 5{,}948\,$\pm$\,0{,}211 & 17{,}000\,$\pm$\,1{,}661 & 0{,}046\,$\pm$\,0{,}013 & 0{,}017\,$\pm$\,0{,}004 & 0{,}763\,$\pm$\,0{,}014 & 138{,}767\,$\pm$\,40{,}782 & -0{,}106\,$\pm$\,0{,}017 & 0{,}948\,$\pm$\,0{,}011 & 0{,}448\,$\pm$\,0{,}014 & 0{,}512\,$\pm$\,0{,}037 \\
+Configuração & 2.929 & \textbf{3{,}129\,$\pm$\,0{,}008} & \textbf{7{,}667\,$\pm$\,0{,}606} & \textbf{0{,}129\,$\pm$\,0{,}005} & 0{,}066\,$\pm$\,0{,}002 & 0{,}618\,$\pm$\,0{,}002 & \textbf{234{,}000\,$\pm$\,0{,}000} & \textbf{-0{,}466\,$\pm$\,0{,}003} & 0{,}911\,$\pm$\,0{,}006 & \textbf{0{,}000\,$\pm$\,0{,}000} & \textbf{0{,}259\,$\pm$\,0{,}013} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
