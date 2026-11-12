@@ -20,10 +20,11 @@ A condução segue a CRISP-NET. A versão anterior do estudo, sobre a UNIFEI int
 │   └── lista_docentes_unifei.csv     # docentes dos oito institutos (SIGAA, 03/11/2026)
 ├── src/                          # o mesmo código dos notebooks, como módulos Python
 ├── scripts/
-│   ├── atualizar_rede_v2.py          # aplica à rede integrada os ajustes pós-parecer (M2 e orientandos)
+│   ├── atualizar_rede_v2.py          # aplica a uma rede antiga os ajustes pós-parecer (M2 e orientandos), sem refazer o OpenAlex
 │   └── conferir_arestas_docentes.py  # evidência de cada aresta entre docentes, para conferência
 ├── dados/
-│   ├── rede/                         # nos*.csv, arestas*.csv e rede_imc.graphml (externos pseudonimizados)
+│   ├── rede/                         # nos*.csv, arestas*.csv e rede_imc.graphml (externos pseudonimizados);
+│   │                                 #   variantes _estrito, _sem_massivos, _trig07 e _trig09 para a sensibilidade
 │   ├── codigos_docentes.csv          # código D01–D48 usado no artigo ↔ id Lattes (público)
 │   ├── conferencia_arestas_DD.csv    # evidência das 232 arestas entre docentes
 │   └── lista_docentes_unifei.csv
@@ -77,7 +78,7 @@ As funções de cada etapa estão em `src/` (`extrator_lattes.executar`, `integr
 
 ## Ambiente dos resultados publicados
 
-Os resultados em `resultados/` foram gerados em Linux x86-64 com Python 3.13 e as versões de `requirements.txt`;
+A rede em `dados/rede/` foi gerada pelos notebooks 01 e 03 (com a saída do notebook 02 de 04/11/2026) e as análises pelo notebook 04, com 1.000 réplicas do nulo de intermediação. Os resultados em `resultados/` foram gerados em Linux x86-64 com Python 3.13 e as versões de `requirements.txt`;
 `resultados/resultados.json` registra o ambiente exato (chave `ambiente`).
 
 ## Licença
